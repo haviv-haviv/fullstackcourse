@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>homework</title>
+    </head>
+    <body>
+        <h1 class="bigger">מה אתה אוהב ומה אתה עובד</h1>
+    <form method="get">
+        <fieldset>
+            <label for="fname" class="bigger">שם פרטי</label>
+            <input type="text" name="fname">
+        </fieldset>
+        <fieldset>
+            <label for="sname" class="bigger">משפחה</label>
+            <input type="text" name="snam">
+        </fieldset>
+        <fieldset>
+            <label for="id" class="bigger"> ת.ז</label>
+            <input type="id" id="id" name="id" pattern="[0-9]{9}" required><br>
+            <small>צריך לכלול 9 מספרים</small>
+        </fieldset>
+        <fieldset>
+            <label for="fm" class="bigger">מין</label>
+            <input type="text" name="fm">
+        </fieldset>
+        <fieldset>
+            <label for="email" class="bigger">מייל שלך</label>
+            <input type="email" name="email" required><br><br>
+        </fieldset>
+        <fieldset>
+            <label for="work" class="bigger">מה אתה עובד</label>
+            <input type="text" name="work">
+        </fieldset>
+        <fieldset>
+            <label for="validation">אני מסכים לשתף פעולה</label>
+            <input type="checkbox" name="validation">
+        </fieldset>
+        <textarea name="message" rows="10" cols="40" placeholder="נשמח מאוד אם תשאיר לנו הערה"></textarea><br>
+        <button  type="submit" style="background-color: red;">אני שולח</button>
+    </form>
+    </body>
