@@ -1,0 +1,173 @@
+header{
+    background-color: crimson;
+    border: 2px solid black;
+    width: 900px;
+    margin: 10px auto 0px 350px;
+    text-align: center;
+}
+
+a#fa-id {
+    color:rgb(58, 55, 55);
+    margin: 0px 50px 
+}
+
+.d-class {
+    width: 900px;
+    margin: 0px  auto;
+    margin-left: 350px;  
+}
+
+.div-desc {
+    padding: auto;
+    text-align: center;
+    background-color: black;
+    color: white;  
+}
+
+/* mouse over link */
+a#fa-id:hover {
+    color: greenyellow;
+}
+
+.s-class {
+    width: 900px;
+    height: 50px;
+    border: 2px solid yellow;
+    text-align: center;
+    background-color: red;
+    margin: 0px auto 0px 350px;
+}
+
+p:first-of-type {
+    font-size: 35px;
+    margin: 5px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+
+.th-class {
+    width: 900px;
+    margin: 0px auto;
+    margin-left: 350px;
+    text-align: left;
+    background-color: rgb(131, 126, 126);
+}
+
+p:nth-of-type(2) {
+    font-size: 2em;  
+    margin: 20px 0px; 
+}
+P:last-of-type {
+    font-size: 2em;
+}
+
+.fr-class {
+    width: 900px;
+    margin: 0px auto;
+    margin-left: 350px;
+    text-align: left;
+    background-color: red;
+}
+
+.div-cross {
+    width: 900px;
+    padding: 10px auto;
+    text-align: center;
+    margin: 0px auto 0px 350px;
+    border: 1.5px solid yellowgreen;
+    background-color: red;
+}
+
+.div-c {
+    width: 900px;
+    margin-left: 350px;
+    border: 2px solid red;
+    background-color: black;
+}
+
+.img-div {
+    width: 20%;
+    display: inline;
+}
+
+.p-div {
+    width: 80%;
+    display: inline;
+    color: white;
+}
+span.a {
+    display: inline;
+    color: red;
+    font-size: 25px;
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+    border: 1px solid red;
+    background-color: yellowgreen;
+}
+
+span.b {
+    display: inline-block;
+    color: red;
+    font-size: 25px;
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+    border: 1px solid red;
+    background-color: yellowgreen;
+}
+
+span.c {
+    display: block;
+    color: red;
+    font-size: 25px;
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+    border: 1px solid red;
+    background-color: yellowgreen;
+}
+
+form {
+    width: 30%;
+    margin: 0px auto;
+}
+
+#img-id {
+    margin: 10px auto 0px 370px;
+}
+
+fieldset {
+    margin: 0 auto;
+    text-align: center; 
+    border: hidden;   
+}
+
+#f-in {
+    width: 35%;
+}
+
+#s-in {
+    width: 35%; 
+}
+
+#th-in {
+    width:30%;
+    margin: 0px auto 0px 90px;
+}
+
+#a-id {
+    margin: 10px auto 0px 345px;
+    font-size: 30px;
+    color: yellowgreen;
+}
+
+/* mouse over link */
+#a-id:hover {
+    color: white;
+    font-size: 30px;
+}
+
+/* slected link */
+#a-id:active {
+    color: blue;
+}
