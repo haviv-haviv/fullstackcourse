@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+* {
+    font-family: Rubik, sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    background-color: rgb(17, 16, 17);
+    width:1500px;
+    height: 50px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.hd-class {
+    position: absolute;
+    top: 10px;
+    left: 550px;
+}
+
+a {
+    margin: 50px;
+    color: white;
+}
+
+#a-home {
+    color: chartreuse;
+}
+
+a:hover {
+    color: red;
+}
+
+nav {
+    display: inline-block;
+}
+
+img {
+    height: 30px;
+    max-width: 200px;
+    border-radius: 20%;   
+}
+
+main {
+    background-color: black;
+}
+
+.under-hdr {
+    width: 500px;
+    height: 500px;
+    top: 20px;
+    left: 350px;
+    position: relative;
+    border: 1.5px solid rgb(238, 236, 236);
+    border-radius: 10%;
+    font-size: 35px;
+    text-align: center;
+    background-color: black;
+    color:rgb(173, 5, 5);
+}
+
+.childunder-hdr {
+    width: 301px;
+    height: 301px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border: 1.5px solid white ;  
+}
+
+#img-abso {
+    height: 300px;
+    width: 300px;
+}
+
+.underr-hdr {
+    width: 500px;
+    height: 500px;
+    top: 20px;
+    left: 900px;
+    position: relative;
+    border: 1.5px solid rgb(248, 244, 244);
+    font-size: 35px;
+    text-align: center;
+    background-color: black;
+    color:rgb(173, 5, 5);
+    display: inline-block;
+}
+
+.childunderr-hdr {
+    width: 301px;
+    height: 301px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border: 1.5px solid white ;  
+    display: inline-block;
+}
+
+.div-desplay {
+    display: inline;
+}
+
+h1 {
+    position: sticky;
+    top: 60px;
+    width: 1481px;
+    left: 0px;
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    border: 1.5px solid red;
+    color: red;
+}
+
+.d-class {
+    width: 1501.5px;
+    background-color: black;
+    color: white;
+}
+
+footer {
+    top: 0px;
+    width: 1502px;
+    height: 400px;
+    margin: 0px 0px;
+    text-align: center;
+    background-color: rgb(80, 78, 78);
+    border: 1.5px solid red;
+    color: white;
+}
+
+form {
+    width: 50%;
+    border: 1.5px solid white;
+    margin: 0px auto 30px auto;
+}
+
+.img-footer {
+    width: 150px;
+    height: 150px;
+}
+
+.a-footer {
+    color: orange;
+    font-size: 35px;
+}
+
+fieldset {
+    width: 500px;
+    border: none;
+    margin: 0px auto 30px auto;
+}
+
+input {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+#click-id {
+    width: 50%;
+}
