@@ -1,0 +1,352 @@
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.hdr-div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: space-around;
+    border: 0.5px solid white;
+    font-size: 0.5rem;
+    background-color: white;
+}
+
+.icon {
+    width: 8%;
+    height: 50px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url(img/tal.png);
+    background-position: center;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: greenyellow;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.hero-div {
+padding: 5%;
+background-image: url(img/rekaa.png);
+background-size: cover;
+font-size: 2em;
+text-align: end
+}
+
+#in-hero {
+    width: 12rem;
+    height: 3rem;
+    background-color: chocolate;
+    font-size:1.5rem ;
+}
+
+.h2-div {
+    width: 100%;
+    font-size: 1em;
+    text-align: center;
+    border: 1.5px solid white;
+}
+
+
+
+.one-div {
+    width: 35%;
+    height: 200px;
+    background-image: url(img/2525.jpg);
+    background-size: cover;
+    color: white;
+    margin: 5px;
+}
+
+.two-div {
+    width: 35%;
+    height: 200px;
+    background-image: url(img/2525.jpg);
+    background-size: cover;
+    color: white;
+    margin: 5px;
+}
+
+.three-div {
+    width: 35%;
+    height: 200px;
+    background-image: url(img/2525.jpg);
+    background-size: cover;
+    color: white;
+    margin: 5px;
+}
+
+.four-div {
+    width: 35%;
+    height: 200px;
+    background-image: url(img/2525.jpg);
+    background-size: cover;
+    color: white;
+    margin: 5px;
+}
+
+.five-div {
+    width: 35%;
+    height: 200px;
+    background-image: url(img/2525.jpg);
+    background-size: cover;
+    color: white;
+    margin: 5px;
+}
+
+.sex-div {
+    width: 35%;
+    height: 200px;
+    background-image: url(img/2525.jpg);
+    background-size: cover;
+    color: white;
+    margin: 5px;
+}
+#h2-container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+
+footer {
+    top: 0px;
+    height: 400px;
+    margin: 0px 0px;
+    text-align: center;
+    background-color: rgb(80, 78, 78);
+    border: 1.5px solid red;
+    color: white;
+    
+}
+
+form {
+    width: 100%;
+    border: 1.5px solid white;
+    margin: 0px auto 30px auto;
+}
+
+.img-footer {
+    width: 150px;
+    height: 150px;
+}
+
+.a-footer {
+    color: orange;
+    font-size: 35px;
+}
+
+fieldset {
+    width: 500px;
+    border: none;
+    margin: 0px auto 30px auto;
+}
+
+input {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+#click-id {
+    width: 50%;
+}
+
+@media only screen and (min-width:1024px) {
+    
+    header {
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+    }    
+
+    .hdr-div {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        justify-content: space-around;
+        width: 100%;
+        border: 0.5px solid white;
+        font-size: 1rem;
+        background-color: white;
+    }
+
+    .icon {
+        width: 5%;
+        height: 45px;
+    }
+    
+    
+    main {
+        width: 100%;
+        background-image: url(img/rekaa.png);
+        background-size: cover;
+    }
+  
+    .hero-div {
+    padding: 5%;
+    font-size: 2em;
+    text-align: end
+    }
+
+    
+    #in-hero {
+        width: 12rem;
+        height: 3rem;
+        background-color: chocolate;
+        font-size:1.5rem ;
+    }
+    
+    .h2-div {
+        width: 100%;
+        font-size: 1em;
+        text-align: center;
+        border: 1.5px solid white;
+    }
+    
+    .one-div {
+        width: 30%;
+        height: 200px;
+        background-image: url(img/2525.jpg);
+        background-size: cover;
+        color: white;
+        margin: 5px;
+    }
+    
+    
+    .two-div {
+        width: 30%;
+        height: 200px;
+        background-image: url(img/2525.jpg);
+        background-size: cover;
+        color: white;
+        margin: 5px;
+    }
+    
+    .three-div {
+        width: 30%;
+        height: 200px;
+        background-image: url(img/2525.jpg);
+        background-size: cover;
+        color: white;
+        margin: 5px;
+    }
+    
+    .four-div {
+        width: 30%;
+        height: 200px;
+        background-image: url(img/2525.jpg);
+        background-size: cover;
+        color: white;
+        margin: 5px;
+    }
+    
+    .five-div {
+        width: 30%;
+        height: 200px;
+        background-image: url(img/2525.jpg);
+        background-size: cover;
+        color: white;
+        margin: 5px;
+    }
+    
+    .sex-div {
+        width: 30%;
+        height: 200px;
+        background-image: url(img/2525.jpg);
+        background-size: cover;
+        color: white;
+        margin: 5px;
+    }
+    #h2-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    
+    
+    footer {
+        top: 0px;
+        width: 100%;
+        height: 400px;
+        margin: 0px 0px;
+        text-align: center;
+        background-color: rgb(80, 78, 78);
+        border: 1.5px solid red;
+        color: white;
+        
+    }
+    
+    form {
+        width: 100%;
+        border: 1.5px solid white;
+        margin: 0px auto 30px auto;
+    }
+    
+    .img-footer {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .a-footer {
+        color: orange;
+        font-size: 35px;
+    }
+    
+    fieldset {
+        width: 500px;
+        border: none;
+        margin: 0px auto 30px auto;
+    }
+    
+    input {
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+    }
+    
+    #click-id {
+        width: 50%;
+    }
+
+}
+
+
+
